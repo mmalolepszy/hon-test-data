@@ -1,0 +1,9 @@
+{
+    "programsCounter": 0,
+    "mostUsedPrograms": [],
+    "temperatureUsage": {
+        "temp45to55": 0,
+        "temp60to65": 0
+    },
+    "loadingPercentage": []
+}
