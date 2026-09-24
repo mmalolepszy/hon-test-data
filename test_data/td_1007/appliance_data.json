@@ -1,0 +1,67 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x111-11x1-x111xxxx111x",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 1007,
+    "applianceStatus": 1,
+    "applianceTypeId": 8,
+    "applianceTypeName": "TD",
+    "attributes": {
+        "acuVersion": "0.0.0",
+        "chipset": "1",
+        "dictionaryId": "203",
+        "eppParserSet": "1",
+        "fwLabel": "iotfw_epp_ulg",
+        "idfVersion": "4.4.5",
+        "kernelVersion": "10.4.3",
+        "lang": "it-IT",
+        "uiVersion": "21.09.17"
+    },
+    "brand": "haier",
+    "code": "XX1111X1111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": -1.1111111,
+        "lat": 11.1111111
+    },
+    "defaultWarrantyYears": 2,
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "6.14.0",
+    "id": 1007,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "HD90-A2959R-UK",
+    "oemAppId": "hOn",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "XX1111X1111XXX111111",
+    "series": "959",
+    "sfPersonAccountId": "111xX11111x1x1XXXX",
+    "structure": "heatpump",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "sections": {
+        "quickPair_enabled": false,
+        "snap_and_dry": true,
+        "statistics_td_smart_ai": false,
+        "statistics_td_eco_delay": true,
+        "statistics_td_instant_consumption": true,
+        "statistics_td_load_efficiency": true,
+        "statistics_td_programs_counter": true,
+        "statistics_td_most_used_programs": true,
+        "enable_water_tank_cleaning": true,
+        "enable_new_program_list": true,
+        "enable_new_program_detail": true,
+        "ecoDelayStart": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}

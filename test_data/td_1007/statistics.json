@@ -1,0 +1,62 @@
+{
+    "resultCode": "0",
+    "programsCounter": 17,
+    "mostUsedPrograms": [
+        {
+            "programName": "IOT_DRY_MIXED",
+            "prPosition": "3",
+            "prCode": "64",
+            "programType": null,
+            "count": 12
+        },
+        {
+            "programName": "HQD_TOWEL",
+            "prPosition": "4",
+            "prCode": "65",
+            "programType": null,
+            "count": 2
+        },
+        {
+            "programName": "IOT_DRY_BED_LINEN",
+            "prPosition": "5",
+            "prCode": "66",
+            "programType": null,
+            "count": 2
+        },
+        {
+            "programName": "IOT_DRY_DELICATES",
+            "prPosition": "31",
+            "prCode": "92",
+            "programType": null,
+            "count": 1
+        }
+    ],
+    "temperatureUsage": {},
+    "loadingPercentage": [
+        {
+            "max": "0",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "0",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "0",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "0",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "0",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        }
+    ]
+}
