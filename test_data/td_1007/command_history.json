@@ -1,0 +1,74 @@
+[
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x111-11x1-x111xxxx111x#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "programName": "PROGRAMS.TD.HQD_DUVET",
+            "ancillaryParameters": {
+                "remoteActionable": "1",
+                "programType": "D",
+                "remoteVisible": "1",
+                "suggestedLoadD": "3.6",
+                "programCluster": "home",
+                "tumblingStatus": "1",
+                "energyLabel": "3",
+                "programFamily": "[dashboard]",
+                "prPosition": "14"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "origin": "standardProgram",
+                "energyLabel": "0"
+            },
+            "device": {
+                "appVersion": "2.27.9",
+                "deviceModel": "xxxXx",
+                "osVersion": 999,
+                "mobileId": "xxxXx",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "fastDryStatus": "0",
+                "programClass": "1",
+                "ironRemindStatus": "1",
+                "cloudProgId": "255",
+                "texture": "9",
+                "anionStatus": "0",
+                "delicateStatus": "0",
+                "operationName": "grDryCloudProg",
+                "prCode": "75",
+                "dryMode": "1",
+                "dryLevel": "11",
+                "tempLevel": "4",
+                "pause": "0",
+                "airWashMode": "1",
+                "sterilizationStatus": "0",
+                "airwashSprayTime": "65278",
+                "mitesRemovalStatus": "0",
+                "lockStatus": "0",
+                "antiCreaseTime": "360",
+                "delayTime": "0",
+                "cloudProgSrc": "2",
+                "dryTimeMM": "60",
+                "buzzerDisabled": "1",
+                "onOffStatus": "1"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    }
+]
