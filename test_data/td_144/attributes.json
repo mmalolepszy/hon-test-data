@@ -338,7 +338,7 @@
         "category": "CYCLE",
         "ttl": 1718441152,
         "macAddress": "xx-xx-xx-xx-xx-xx",
-        "activityExecutionStarted": "2024-03-17 08:45:52",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "attributes": {
             "prPosition": "2",
             "prCode": "2",
@@ -365,7 +365,7 @@
             "channel": "mobileApp",
             "origin": "standardProgram",
             "programFamily": "[dashboard]",
-            "principalUserId": "0016800000D5O11AAF",
+            "principalUserId": "xxxxxxxxxxxxxxxxxx",
             "programName": "WHITES"
         },
         "applianceTypeName": "TD"

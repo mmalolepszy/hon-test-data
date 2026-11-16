@@ -310,7 +310,7 @@
         "category": "CYCLE",
         "ttl": 1695975374,
         "macAddress": "xx-xx-xx-xx-xx-xx",
-        "activityExecutionStarted": "2023-07-01 08:16:13",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "attributes": {
             "machMode": "1",
             "10degreeHeatingStatus": "0",
@@ -384,7 +384,7 @@
             "mobileOs": "android",
             "channel": "mobileApp",
             "origin": "standardProgram",
-            "principalUserId": "0016800000ETo7bAAD"
+            "principalUserId": "xxxxxxxxxxxxxxxxxx"
         },
         "applianceTypeName": "AC"
     },

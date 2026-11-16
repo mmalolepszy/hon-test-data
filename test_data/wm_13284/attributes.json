@@ -491,14 +491,14 @@
             "programIntensity": "standard",
             "antiWrinkle": "1",
             "programCluster": "sport",
-            "principalUserId": "001R200000BduC8IAJ",
+            "principalUserId": "xxxxxxxxxxxxxxxxxx",
             "haier_SoakPrewashSelection": "0",
             "mainWashTime": "5",
             "rinseIterations": "1",
             "rinseIterationTime": "4",
             "programName": "HQD_SPORT"
         },
-        "activityExecutionStarted": "2024-02-29 15:35:19",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "applianceTypeName": "WM"
     },
     "commandHistory": {

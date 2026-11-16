@@ -303,10 +303,10 @@
             "programFamily": "[hidden|guided|snap]",
             "programCluster": "traditional",
             "ecoDelayStart": "0",
-            "principalUserId": "0016800000ZnKJ8AAN",
+            "principalUserId": "xxxxxxxxxxxxxxxxxx",
             "programName": "HYGIENE"
         },
-        "activityExecutionStarted": "2024-01-09 23:03:21",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "applianceTypeName": "DW"
     },
     "commandHistory": {

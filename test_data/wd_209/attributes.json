@@ -374,10 +374,10 @@
             "suggestedLoadWD": "6",
             "programFamily": "[dashboard]",
             "ecoDelayStart": "1",
-            "principalUserId": "0016800000F0YgSAAV",
+            "principalUserId": "xxxxxxxxxxxxxxxxxx",
             "programName": "ECO_40_60_NEW_ENERGY_LABEL"
         },
-        "activityExecutionStarted": "2023-07-07 13:04:41",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "applianceTypeName": "WD"
     },
     "commandHistory": {

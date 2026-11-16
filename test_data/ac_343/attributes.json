@@ -385,9 +385,9 @@
             "channel": "mobileApp",
             "origin": "standardProgram",
             "programFamily": "[standard]",
-            "principalUserId": "0016800000Gr7dzAAB"
+            "principalUserId": "xxxxxxxxxxxxxxxxxx"
         },
-        "activityExecutionStarted": "2023-08-28 11:36:14",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "applianceTypeName": "AC"
     },
     "commandHistory": {

@@ -162,7 +162,7 @@
         "category": "CYCLE",
         "ttl": 1707214214,
         "macAddress": "xx-xx-xx-xx-xx-xx",
-        "activityExecutionStarted": "2023-11-08 10:10:14",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "attributes": {
             "prCode": "83",
             "dryLevel": "14",
@@ -183,7 +183,7 @@
             "origin": "standardProgram",
             "programCluster": "home",
             "programFamily": "[hidden|auto]",
-            "principalUserId": "0016800000ZySStAAN",
+            "principalUserId": "xxxxxxxxxxxxxxxxxx",
             "programName": "HQD_BATH_TOWEL"
         },
         "applianceTypeName": "TD"

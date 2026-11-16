@@ -458,7 +458,7 @@
         "category": "CYCLE",
         "ttl": 1717762202,
         "macAddress": "xx-xx-xx-xx-xx-xx",
-        "activityExecutionStarted": "2024-03-09 12:10:02",
+        "activityExecutionStarted": "1970-01-01 00:00:00",
         "attributes": {
             "dryLevel": "0",
             "temp": "60",
