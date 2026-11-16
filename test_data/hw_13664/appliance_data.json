@@ -6,17 +6,44 @@
     "applianceStatus": 1,
     "applianceTypeId": 26,
     "applianceTypeName": "HW",
-    "attributes": {
-        "acuVersion": "0.0.0",
-        "chipset": 1,
-        "dictionaryId": 491,
-        "eppParserSet": 1,
-        "fwLabel": "iotfw_epp_ulg",
-        "idfVersion": "4.4.5",
-        "kernelVersion": "10.4.3",
-        "lang": "it-IT",
-        "uiVersion": "01.00.00"
-    },
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": 1
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": 491
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": 1
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp_ulg"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "01.00.00"
+        }
+    ],
     "brand": "haier",
     "code": "XX1XX1X1111",
     "connectivity": "wifi|ble",
