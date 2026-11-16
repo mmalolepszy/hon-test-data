@@ -1,1 +1,85 @@
-{}
+{
+    "PK": "xxxx#xx-xxxx-1:x1xx1111-x111-1x11-1111-xx11x11xxx11",
+    "SK_Secondary": "XX#xxxxXxxxx#1111-11-11",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 313,
+    "applianceStatus": 1,
+    "applianceTypeId": 11,
+    "applianceTypeName": "AC",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "1"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "176"
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": "1"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.4"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "06.26.00"
+        }
+    ],
+    "brand": "haier",
+    "code": "XXXXX1X1111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": 11.1111111,
+        "lat": 11.1111111
+    },
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "5.15.0",
+    "id": 313,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "AS50S2SF1FA-WH",
+    "nickName": "Xxxxx",
+    "serialNumber": "XXXXX1X1111X1X1X1111",
+    "series": "flexis",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "unitConfiguration": "1to1",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "seriesVersion": "2021",
+    "sections": {
+        "chatbot": true,
+        "double_pairing_hidden": true,
+        "epp_enabled": false
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}

@@ -31,7 +31,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempSel": {
-                "parNewVal": "23.00",
+                "parNewVal": "25.00",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "totalWorkTime": {
@@ -83,7 +83,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempIndoor": {
-                "parNewVal": "24.00",
+                "parNewVal": "23.50",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "healthMode": {
@@ -123,7 +123,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "windDirectionHorizontal": {
-                "parNewVal": "0",
+                "parNewVal": "7",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "ch2oValueIndoor": {
@@ -183,7 +183,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempOutdoor": {
-                "parNewVal": "28.00",
+                "parNewVal": "16.00",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "pm2p5CleaningStatus": {
@@ -239,7 +239,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempCoilerIndoor": {
-                "parNewVal": "23.00",
+                "parNewVal": "24.00",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "compressorCurrent": {
@@ -251,7 +251,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempAirOutdoor": {
-                "parNewVal": "49",
+                "parNewVal": "20",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempInAirOutdoor": {
@@ -275,7 +275,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "tempCoilerOutdoor": {
-                "parNewVal": "22",
+                "parNewVal": "16",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "compressorFrequency": {
@@ -306,7 +306,9 @@
             "macAddress": "xx-xx-xx-xx-xx-xx",
             "commandName": "stopProgram",
             "applianceOptions": {},
-            "ancillaryParameters": {},
+            "ancillaryParameters": {
+                "windDirectionVerticalPositionSequence": "0"
+            },
             "applianceType": "AC",
             "attributes": {
                 "channel": "mobileApp",
@@ -314,10 +316,10 @@
                 "energyLabel": "0"
             },
             "device": {
-                "appVersion": "2.6.5",
-                "deviceModel": "xxxXx",
+                "appVersion": "2.27.9",
+                "deviceModel": "pyhOn",
                 "osVersion": 999,
-                "mobileId": "xxxXx",
+                "mobileId": "xxxxxxxxxxxx",
                 "mobileOs": "android"
             },
             "parameters": {
@@ -325,13 +327,13 @@
                 "cleaningTimeStatus": "0",
                 "heatAccumulationStatus": "0",
                 "echoStatus": "0",
-                "tempSel": "22",
                 "healthMode": "0",
+                "tempSel": "22",
                 "humidificationStatus": "0",
                 "tempUnit": "0",
-                "screenDisplayStatus": "1",
-                "pmvStatus": "0",
                 "humiditySel": "30",
+                "pmvStatus": "0",
+                "screenDisplayStatus": "1",
                 "windDirectionVertical": "5",
                 "lightStatus": "0",
                 "energySavingStatus": "0",
@@ -341,14 +343,14 @@
                 "freshAirStatus": "0",
                 "pm2p5CleaningStatus": "0",
                 "windSpeed": "5",
-                "onOffStatus": "0",
-                "electricHeatingStatus": "0",
                 "ch2oCleaningStatus": "0",
+                "electricHeatingStatus": "0",
+                "onOffStatus": "0",
                 "filterChangeStatusCloud": "0",
                 "energySavePeriod": "15",
                 "intelligenceStatus": "0",
-                "rapidMode": "0",
                 "halfDegreeSettingStatus": "0",
+                "rapidMode": "0",
                 "operationName": "grSetDAC",
                 "silentSleepStatus": "0",
                 "voiceSignStatus": "0",
@@ -370,6 +372,6 @@
         "macAddress": "xx-xx-xx-xx-xx-xx",
         "category": "CONNECTED",
         "instantTime": "1970-01-01T00:00:00.0Z",
-        "timestampEvent": 1760740689769
+        "timestampEvent": 1794778092136
     }
 }

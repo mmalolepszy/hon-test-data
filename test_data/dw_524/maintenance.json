@@ -1,28 +1,28 @@
 {
     "filterCleaning": {
         "tot": 15,
-        "count": 404,
-        "remaining": -389,
-        "percentage": 2693
+        "count": 671,
+        "remaining": -656,
+        "percentage": 4473
     },
     "drawerCleaning": {
         "tot": 100,
-        "count": 404,
-        "remaining": -304,
-        "percentage": 404
+        "count": 671,
+        "remaining": -571,
+        "percentage": 671
     },
     "drumCleaning": {
         "tot": 100,
-        "count": 404,
-        "remaining": -304,
-        "percentage": 404
+        "count": 671,
+        "remaining": -571,
+        "percentage": 671
     },
     "sprayArmsCleaning": {
         "tot": 100,
-        "count": 404,
-        "remaining": -304,
-        "percentage": 404
+        "count": 671,
+        "remaining": -571,
+        "percentage": 671
     },
-    "tabs": 2,
+    "tabs": 0,
     "lastCheckup": "1970-01-01T00:00:00.0Z"
 }

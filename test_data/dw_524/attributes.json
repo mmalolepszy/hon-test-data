@@ -3,7 +3,7 @@
     "shadow": {
         "parameters": {
             "temp60to65": {
-                "parNewVal": "19",
+                "parNewVal": "25",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "machMode": {
@@ -55,7 +55,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "halfLoad": {
-                "parNewVal": "0",
+                "parNewVal": "1",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "photoSessionStatus": {
@@ -67,7 +67,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program4": {
-                "parNewVal": "18",
+                "parNewVal": "23",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program3": {
@@ -79,7 +79,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program6": {
-                "parNewVal": "9",
+                "parNewVal": "11",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program5": {
@@ -87,7 +87,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program8": {
-                "parNewVal": "1",
+                "parNewVal": "2",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "prCodeSuggest": {
@@ -115,7 +115,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "program1": {
-                "parNewVal": "500",
+                "parNewVal": "766",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "armStatus": {
@@ -175,7 +175,7 @@
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "temp45to55": {
-                "parNewVal": "501",
+                "parNewVal": "767",
                 "lastUpdate": "1970-01-01T00:00:00.0Z"
             },
             "delayTime": {
@@ -352,6 +352,6 @@
         "macAddress": "xx-xx-xx-xx-xx-xx",
         "category": "DISCONNECTED",
         "instantTime": "1970-01-01T00:00:00.0Z",
-        "timestampEvent": 1761236185592
+        "timestampEvent": 1794789019990
     }
 }

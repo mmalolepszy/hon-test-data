@@ -2,21 +2,21 @@
     "resultCode": "0",
     "filterCleaning": {
         "tot": 100,
-        "count": 117,
-        "remaining": -17,
-        "percentage": 117
+        "count": 504,
+        "remaining": -404,
+        "percentage": 504
     },
     "drumCleaning": {
         "tot": 100,
-        "count": 116,
-        "remaining": -16,
-        "percentage": 116
+        "count": 503,
+        "remaining": -403,
+        "percentage": 503
     },
     "drawerCleaning": {
         "tot": 100,
-        "count": 117,
-        "remaining": -17,
-        "percentage": 117
+        "count": 504,
+        "remaining": -404,
+        "percentage": 504
     },
     "lastCheckup": null
 }

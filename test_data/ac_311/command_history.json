@@ -1,18 +1,77 @@
 [
     {
-        "timestampAccepted": "1970-01-01T00:00:00.0Z",
-        "timestampExecuted": "1970-01-01T00:00:00.0Z",
-        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
-        "PK": "xxxx#xx-xxxx-1:x1xxx111-11x1-1x11-xxx1-x11x1x11x11x#xxx#xx-xx-xx-xx-xx-xx",
+        "PK": "xxxx#xx-xxxx-1:x1xx1111-x111-1x11-1111-xx11x11xxx11#xxx#xx-xx-xx-xx-xx-xx",
         "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
         "command": {
             "macAddress": "xx-xx-xx-xx-xx-xx",
             "commandName": "startProgram",
             "applianceOptions": {},
+            "parametersUIScreen": {},
             "programName": "PROGRAMS.AC.IOT_COOL",
             "ancillaryParameters": {
                 "remoteActionable": "1",
-                "programFamily": "[standard]",
+                "ecoMode": "0",
+                "programFamily": "[dashboard|standard]",
+                "programRules": {
+                    "fixedValue": {
+                        "windDirectionVertical": {
+                            "ecoMode": {
+                                "1": {
+                                    "machMode": {
+                                        "1|4": {
+                                            "fixedValue": "3",
+                                            "typology": "fixed"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "windSpeed": {
+                            "ecoMode": {
+                                "1": {
+                                    "machMode": {
+                                        "1|4": {
+                                            "typology": "enum",
+                                            "defaultValue": "5",
+                                            "enumValues": "1|2|3|5"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "tempSel": {
+                            "ecoMode": {
+                                "1": {
+                                    "machMode": {
+                                        "1": {
+                                            "fixedValue": "26",
+                                            "typology": "fixed"
+                                        },
+                                        "4": {
+                                            "fixedValue": "20",
+                                            "typology": "fixed"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "windDirectionHorizontal": {
+                            "ecoMode": {
+                                "1": {
+                                    "machMode": {
+                                        "1|4": {
+                                            "fixedValue": "4",
+                                            "typology": "fixed"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "typology": "fixed",
+                    "category": "rule",
+                    "mandatory": 0
+                },
                 "remoteVisible": "1"
             },
             "applianceType": "AC",
@@ -22,10 +81,10 @@
                 "origin": "standardProgram"
             },
             "device": {
-                "appVersion": "1.49.7",
-                "deviceModel": "sm6150",
-                "osVersion": "32",
-                "mobileId": "1111xx1xx1111x11",
+                "appVersion": "2.26.4",
+                "deviceModel": "pineapple",
+                "osVersion": "36",
+                "mobileId": "x1111xx11xx1x1x1",
                 "mobileOs": "android"
             },
             "parameters": {
@@ -33,30 +92,30 @@
                 "cleaningTimeStatus": "0",
                 "heatAccumulationStatus": "0",
                 "echoStatus": "0",
-                "tempSel": "21.00",
                 "healthMode": "0",
+                "tempSel": "22",
                 "humidificationStatus": "0",
-                "tempUnit": "1",
-                "screenDisplayStatus": "1",
-                "pmvStatus": "0",
+                "tempUnit": "0",
                 "humiditySel": "30",
-                "windDirectionVertical": "8",
+                "pmvStatus": "0",
+                "screenDisplayStatus": "1",
+                "windDirectionVertical": "5",
                 "lightStatus": "0",
                 "energySavingStatus": "0",
                 "lockStatus": "0",
                 "machMode": "1",
-                "windDirectionHorizontal": "4",
+                "windDirectionHorizontal": "0",
                 "freshAirStatus": "0",
                 "pm2p5CleaningStatus": "0",
-                "windSpeed": "3",
-                "onOffStatus": "1",
-                "electricHeatingStatus": "0",
+                "windSpeed": "5",
                 "ch2oCleaningStatus": "0",
+                "electricHeatingStatus": "0",
+                "onOffStatus": "1",
                 "filterChangeStatusCloud": "0",
                 "energySavePeriod": "15",
                 "intelligenceStatus": "0",
-                "rapidMode": "0",
                 "halfDegreeSettingStatus": "0",
+                "rapidMode": "0",
                 "operationName": "grSetDAC",
                 "silentSleepStatus": "0",
                 "voiceSignStatus": "0",
@@ -71,35 +130,35 @@
             "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
             "timestamp": "1970-01-01T00:00:00.0Z"
         },
-        "lastUpdate": "1970-01-01T00:00:00.0Z"
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
     },
     {
-        "timestampAccepted": "1970-01-01T00:00:00.0Z",
-        "timestampExecuted": "1970-01-01T00:00:00.0Z",
-        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
-        "PK": "xxxx#xx-xxxx-1:x1xxx111-11x1-1x11-xxx1-x11x1x11x11x#xxx#xx-xx-xx-xx-xx-xx",
+        "PK": "xxxx#xx-xxxx-1:x1xx1111-x111-1x11-1111-xx11x11xxx11#xxx#xx-xx-xx-xx-xx-xx",
         "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
         "command": {
             "macAddress": "xx-xx-xx-xx-xx-xx",
             "commandName": "startProgram",
             "applianceOptions": {},
-            "programName": "PROGRAMS.AC.IOT_COOL",
+            "programName": "PROGRAMS.AC.IOT_SIMPLE_START",
             "ancillaryParameters": {
                 "remoteActionable": "1",
-                "programFamily": "[standard]",
-                "remoteVisible": "1"
+                "remoteVisible": "0",
+                "windDirectionVerticalPositionSequence": "0"
             },
             "applianceType": "AC",
             "attributes": {
-                "prStr": "Ch\u0142odzenie",
                 "channel": "mobileApp",
-                "origin": "standardProgram"
+                "origin": "standardProgram",
+                "energyLabel": "0"
             },
             "device": {
-                "appVersion": "1.49.7",
-                "deviceModel": "sm6150",
-                "osVersion": "32",
-                "mobileId": "1111xx1xx1111x11",
+                "appVersion": "2.6.5",
+                "deviceModel": "pyhOn",
+                "osVersion": 999,
+                "mobileId": "xxxxxxxxxxxx",
                 "mobileOs": "android"
             },
             "parameters": {
@@ -107,22 +166,22 @@
                 "cleaningTimeStatus": "0",
                 "heatAccumulationStatus": "0",
                 "echoStatus": "0",
-                "tempSel": "21",
+                "tempSel": "22",
                 "healthMode": "0",
                 "humidificationStatus": "0",
-                "tempUnit": "1",
+                "tempUnit": "0",
                 "screenDisplayStatus": "1",
                 "pmvStatus": "0",
                 "humiditySel": "30",
-                "windDirectionVertical": "8",
+                "windDirectionVertical": "5",
                 "lightStatus": "0",
                 "energySavingStatus": "0",
                 "lockStatus": "0",
-                "machMode": "1",
-                "windDirectionHorizontal": "3",
+                "machMode": "0",
+                "windDirectionHorizontal": "0",
                 "freshAirStatus": "0",
                 "pm2p5CleaningStatus": "0",
-                "windSpeed": "3",
+                "windSpeed": "5",
                 "onOffStatus": "1",
                 "electricHeatingStatus": "0",
                 "ch2oCleaningStatus": "0",
@@ -145,6 +204,9 @@
             "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
             "timestamp": "1970-01-01T00:00:00.0Z"
         },
-        "lastUpdate": "1970-01-01T00:00:00.0Z"
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
     }
 ]
