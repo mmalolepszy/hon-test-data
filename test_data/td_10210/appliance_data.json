@@ -1,0 +1,93 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 10210,
+    "applianceStatus": 1,
+    "applianceTypeId": 8,
+    "applianceTypeName": "TD",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "1"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "203"
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": "1"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "21.09.17"
+        }
+    ],
+    "brand": "haier",
+    "code": "XX111XX1111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": 1.111111111111111,
+        "lat": 11.111111111111111
+    },
+    "defaultWarrantyYears": 2,
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "5.30.0",
+    "id": 10210,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "HD90-A2959R-FR",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "XX111XX1111XXX1X1111",
+    "series": "959",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "structure": "heatpump",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "sections": {
+        "quickPair_enabled": false,
+        "snap_and_dry": true,
+        "statistics_td_smart_ai": false,
+        "statistics_td_eco_delay": true,
+        "statistics_td_instant_consumption": true,
+        "statistics_td_load_efficiency": true,
+        "statistics_td_programs_counter": true,
+        "statistics_td_most_used_programs": true,
+        "enable_water_tank_cleaning": true,
+        "enable_new_program_list": true,
+        "enable_new_program_detail": true,
+        "ecoDelayStart": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}

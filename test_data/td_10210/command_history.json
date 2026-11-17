@@ -1,0 +1,371 @@
+[
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "energyLabel": "0",
+                "prPosition": "31",
+                "programCluster": "traditional",
+                "programFamily": "[dashboard|auto]",
+                "programType": "D",
+                "remoteActionable": "1",
+                "remoteVisible": "1",
+                "suggestedLoadD": 3.6,
+                "tumblingStatus": "0"
+            },
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "standardProgram",
+                "prStr": "Delicates"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.30.7",
+                "deviceModel": "iPhone17,1",
+                "mobileId": "1111X1XX-1111-111X-1XX1-1XXXX11X11XX",
+                "mobileOs": "ios",
+                "osVersion": "27.2.1"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "airWashMode": "1",
+                "airwashSprayTime": "65278",
+                "anionStatus": "0",
+                "antiCreaseTime": "0",
+                "buzzerDisabled": "1",
+                "cloudProgId": "255",
+                "cloudProgSrc": "2",
+                "delayTime": "0",
+                "delicateStatus": "0",
+                "dryLevel": "13",
+                "dryMode": "1",
+                "dryTimeMM": "105.3",
+                "fastDryStatus": "0",
+                "ironRemindStatus": "1",
+                "lockStatus": "0",
+                "mitesRemovalStatus": "0",
+                "onOffStatus": "1",
+                "operationName": "grDryCloudProg",
+                "pause": "0",
+                "prCode": "92",
+                "programClass": "1",
+                "remainingTimeMM": "105.3",
+                "sterilizationStatus": "0",
+                "tempLevel": "4",
+                "texture": "16"
+            },
+            "programName": "PROGRAMS.TD.HQD_DELICATE",
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "energyLabel": "0",
+                "prPosition": "5",
+                "programCluster": "home",
+                "programFamily": "[hidden|auto]",
+                "programType": "D",
+                "remoteActionable": "1",
+                "remoteVisible": "1",
+                "suggestedLoadD": 4.5,
+                "tumblingStatus": "1"
+            },
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "standardProgram",
+                "prStr": "Bed Sheets"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.30.7",
+                "deviceModel": "iPhone17,1",
+                "mobileId": "1111X1XX-1111-111X-1XX1-1XXXX11X11XX",
+                "mobileOs": "ios",
+                "osVersion": "27.0.1"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "airWashMode": "1",
+                "airwashSprayTime": "65278",
+                "anionStatus": "0",
+                "antiCreaseTime": "360",
+                "buzzerDisabled": "1",
+                "cloudProgId": "255",
+                "cloudProgSrc": "2",
+                "delayTime": "0",
+                "delicateStatus": "0",
+                "dryLevel": "14",
+                "dryMode": "1",
+                "dryTimeMM": "170",
+                "fastDryStatus": "0",
+                "ironRemindStatus": "1",
+                "lockStatus": "0",
+                "mitesRemovalStatus": "0",
+                "onOffStatus": "1",
+                "operationName": "grDryCloudProg",
+                "pause": "0",
+                "prCode": "66",
+                "programClass": "1",
+                "remainingTimeMM": "170",
+                "sterilizationStatus": "0",
+                "tempLevel": "4",
+                "texture": "56"
+            },
+            "programName": "PROGRAMS.TD.HQD_BED_SHEETS",
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "energyLabel": "0",
+                "prPosition": "5",
+                "programCluster": "home",
+                "programFamily": "[hidden|auto]",
+                "programType": "D",
+                "remoteActionable": "1",
+                "remoteVisible": "1",
+                "suggestedLoadD": 4.5,
+                "tumblingStatus": "1"
+            },
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "standardProgram",
+                "prStr": "Bed Sheets"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.30.7",
+                "deviceModel": "iPhone17,1",
+                "mobileId": "1111X1XX-1111-111X-1XX1-1XXXX11X11XX",
+                "mobileOs": "ios",
+                "osVersion": "27.0.1"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "airWashMode": "1",
+                "airwashSprayTime": "65278",
+                "anionStatus": "0",
+                "antiCreaseTime": "360",
+                "buzzerDisabled": "1",
+                "cloudProgId": "255",
+                "cloudProgSrc": "2",
+                "delayTime": "0",
+                "delicateStatus": "0",
+                "dryLevel": "13",
+                "dryMode": "1",
+                "dryTimeMM": "153",
+                "fastDryStatus": "0",
+                "ironRemindStatus": "1",
+                "lockStatus": "0",
+                "mitesRemovalStatus": "0",
+                "onOffStatus": "1",
+                "operationName": "grDryCloudProg",
+                "pause": "0",
+                "prCode": "66",
+                "programClass": "1",
+                "remainingTimeMM": "153",
+                "sterilizationStatus": "0",
+                "tempLevel": "4",
+                "texture": "56"
+            },
+            "programName": "PROGRAMS.TD.HQD_BED_SHEETS",
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "energyLabel": "0",
+                "prPosition": "31",
+                "programCluster": "traditional",
+                "programFamily": "[dashboard|auto]",
+                "programType": "D",
+                "remoteActionable": "1",
+                "remoteVisible": "1",
+                "suggestedLoadD": 3.6,
+                "tumblingStatus": "0"
+            },
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "standardProgram",
+                "prStr": "Delicates"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.30.7",
+                "deviceModel": "iPhone17,1",
+                "mobileId": "1111X1XX-1111-111X-1XX1-1XXXX11X11XX",
+                "mobileOs": "ios",
+                "osVersion": "27.0.1"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "airWashMode": "1",
+                "airwashSprayTime": "65278",
+                "anionStatus": "0",
+                "antiCreaseTime": "0",
+                "buzzerDisabled": "1",
+                "cloudProgId": "255",
+                "cloudProgSrc": "2",
+                "delayTime": "0",
+                "delicateStatus": "0",
+                "dryLevel": "13",
+                "dryMode": "1",
+                "dryTimeMM": "105.3",
+                "fastDryStatus": "0",
+                "ironRemindStatus": "1",
+                "lockStatus": "0",
+                "mitesRemovalStatus": "0",
+                "onOffStatus": "1",
+                "operationName": "grDryCloudProg",
+                "pause": "0",
+                "prCode": "92",
+                "programClass": "1",
+                "remainingTimeMM": "105.3",
+                "sterilizationStatus": "0",
+                "tempLevel": "4",
+                "texture": "16"
+            },
+            "programName": "PROGRAMS.TD.HQD_DELICATE",
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xxxx-x11x-x1x1-1x1xx11xx1x1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "energyLabel": "0",
+                "prPosition": "22",
+                "programCluster": "home",
+                "programFamily": "[hidden|auto]",
+                "programType": "D",
+                "remoteActionable": "1",
+                "remoteVisible": "1",
+                "suggestedLoadD": 4.5,
+                "tumblingStatus": "0"
+            },
+            "applianceOptions": {
+                "opt1": "anticrease",
+                "opt2": "dryingManager",
+                "opt3": "bestIroning",
+                "opt4": "hybrid",
+                "opt5": "photoPlasmaStatus"
+            },
+            "applianceType": "TD",
+            "attributes": {
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "standardProgram",
+                "prStr": "Towels"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.30.7",
+                "deviceModel": "iPhone17,1",
+                "mobileId": "1111X1XX-1111-111X-1XX1-1XXXX11X11XX",
+                "mobileOs": "ios",
+                "osVersion": "27.0.1"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "airWashMode": "1",
+                "airwashSprayTime": "65278",
+                "anionStatus": "0",
+                "antiCreaseTime": "0",
+                "buzzerDisabled": "1",
+                "cloudProgId": "255",
+                "cloudProgSrc": "2",
+                "delayTime": "0",
+                "delicateStatus": "0",
+                "dryLevel": "14",
+                "dryMode": "1",
+                "dryTimeMM": "250",
+                "fastDryStatus": "0",
+                "ironRemindStatus": "1",
+                "lockStatus": "0",
+                "mitesRemovalStatus": "0",
+                "onOffStatus": "1",
+                "operationName": "grDryCloudProg",
+                "pause": "0",
+                "prCode": "83",
+                "programClass": "1",
+                "remainingTimeMM": "250",
+                "sterilizationStatus": "1",
+                "tempLevel": "4",
+                "texture": "36"
+            },
+            "programName": "PROGRAMS.TD.HQD_BATH_TOWEL",
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    }
+]
