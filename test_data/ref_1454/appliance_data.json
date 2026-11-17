@@ -1,0 +1,82 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xxx1-x1x1-1x1x-1x1x1x111x11",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 1454,
+    "applianceStatus": 1,
+    "applianceTypeId": 14,
+    "applianceTypeName": "REF",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "1"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "138"
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": "1"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "11.23.00"
+        }
+    ],
+    "brand": "haier",
+    "code": "X11XX1X1111",
+    "connectivity": "wifi|ble",
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "5.30.0",
+    "id": 1454,
+    "lastCheckUp": "1970-01-01T00:00:00.0Z",
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "HTW7720ENPT",
+    "nickName": "Xxxxxxxxxxxx",
+    "series": "multidoor",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "seriesVersion": "fd70Series7",
+    "sections": {
+        "smart_check_up": true,
+        "visual_my_zone_enabled": true,
+        "inside_view": true,
+        "double_pairing_hidden": true,
+        "chatbot": true,
+        "fridge_blackout_alert": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}
