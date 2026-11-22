@@ -1,0 +1,83 @@
+{
+    "PK": "xxxx#xx-xxxx-1:11x11111-x1xx-1111-1x11-1x1xxxxx1x11",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 1103,
+    "applianceStatus": 1,
+    "applianceTypeId": 2,
+    "applianceTypeName": "WD",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "9.A.B"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "ESP32D0WDQ5"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "205"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_wmwd"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "3.B.1"
+        }
+    ],
+    "brand": "candy",
+    "code": "11111111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": 11.1111111,
+        "lat": 11.1111111
+    },
+    "defaultWarrantyYears": 2,
+    "eepromId": 509,
+    "eepromName": "43041909",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": false,
+    "firstEnrollmentTBC": false,
+    "fwVersion": "5.13.0",
+    "id": 1103,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "RPW4966BWMR/1-S",
+    "nickName": "Xxxxxxxxxx",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "1111111111111111",
+    "series": "rapidoPro",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "sections": {
+        "inventory": true,
+        "double_pairing_hidden": true,
+        "chatbot": true,
+        "demo": true,
+        "statistics_wm_wd_eco_delay": true,
+        "statistics_wm_wd_instant_consumption": true,
+        "statistics_wm_wd_loading_percentage": true,
+        "statistics_wm_wd_temperature_usage": true,
+        "statistics_wm_wd_programs_counter": true,
+        "statistics_wm_wd_most_used_programs": true,
+        "statistics_wm_wd_temperature_trend": true,
+        "enable_new_program_detail": true,
+        "enable_new_program_list": true,
+        "enable_new_dashboard": false,
+        "ecoDelayStart": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}

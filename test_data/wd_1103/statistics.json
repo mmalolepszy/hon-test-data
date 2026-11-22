@@ -1,0 +1,73 @@
+{
+    "resultCode": "0",
+    "programsCounter": 123,
+    "mostUsedPrograms": [
+        {
+            "programName": "MIX_AND_COLOUR_59",
+            "prPosition": "2",
+            "prCode": "12",
+            "programType": null,
+            "count": 81
+        },
+        {
+            "programName": "RAPID_14_MIN",
+            "prPosition": "5",
+            "prCode": "9",
+            "programType": null,
+            "count": 10
+        },
+        {
+            "programName": "LOW_DRY",
+            "prPosition": "13",
+            "prCode": "17",
+            "programType": null,
+            "count": 9
+        },
+        {
+            "programName": "SPECIAL_39_FULL_LOAD",
+            "prPosition": "1",
+            "prCode": "59",
+            "programType": null,
+            "count": 4
+        },
+        {
+            "programName": "RAPID_44_MIN",
+            "prPosition": "5",
+            "prCode": "11",
+            "programType": null,
+            "count": 4
+        }
+    ],
+    "temperatureUsage": {
+        "temp0to30": 38,
+        "temp40": 61,
+        "temp60to90": 1
+    },
+    "loadingPercentage": [
+        {
+            "max": "7",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "7",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "7",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "7",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        },
+        {
+            "max": "7",
+            "date": "1970-01-01T00:00:00.0Z",
+            "current": "0"
+        }
+    ]
+}
