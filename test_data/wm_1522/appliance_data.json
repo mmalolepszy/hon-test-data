@@ -1,0 +1,88 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x1x1-1x11-11x11x1x1x11",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 1522,
+    "applianceStatus": 1,
+    "applianceTypeId": 1,
+    "applianceTypeName": "WM",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "09.05.18"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "0"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "308"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_wmwd_c3"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "01.01.02"
+        }
+    ],
+    "brand": "candy",
+    "code": "11111111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": 1.1111111,
+        "lat": 11.1111111
+    },
+    "eepromId": 7237,
+    "eepromName": "70021045",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": false,
+    "firstEnrollmentTBC": false,
+    "fwVersion": "3.4.0",
+    "id": 1522,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "RO 1496DWMCT/1-S",
+    "serialNumber": "1111111111111111",
+    "series": "rapido",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "sections": {
+        "inventory": true,
+        "chatbot": true,
+        "demo": true,
+        "statistics_wm_wd_eco_delay": true,
+        "statistics_wm_wd_instant_consumption": true,
+        "statistics_wm_wd_loading_percentage": true,
+        "statistics_wm_wd_temperature_usage": true,
+        "statistics_wm_wd_programs_counter": true,
+        "statistics_wm_wd_most_used_programs": true,
+        "statistics_wm_wd_temperature_trend": true,
+        "enable_new_program_list": true,
+        "enable_new_program_detail": true,
+        "enable_new_dashboard": false,
+        "ecoDelayStart": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}

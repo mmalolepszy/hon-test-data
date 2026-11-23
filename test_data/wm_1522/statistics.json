@@ -1,0 +1,73 @@
+{
+    "resultCode": "0",
+    "programsCounter": 173,
+    "mostUsedPrograms": [
+        {
+            "count": 138,
+            "prCode": "12",
+            "prPosition": "3",
+            "programName": "PROGRAMS.WM_WD.MIX_AND_COLOUR_59",
+            "programType": "W+D+S"
+        },
+        {
+            "count": 21,
+            "prCode": "59",
+            "prPosition": "1",
+            "programName": "PROGRAMS.WM_WD.SPECIAL_39_FULL_LOAD",
+            "programType": "W+D+S"
+        },
+        {
+            "count": 3,
+            "programType": "W+D+S",
+            "prCode": "4",
+            "prPosition": "11",
+            "programName": "PROGRAMS.WM_WD.SYNTHETIC_AND_COLOURED"
+        },
+        {
+            "count": 3,
+            "programType": "W+S",
+            "prCode": "6",
+            "prPosition": "6",
+            "programName": "PROGRAMS.WM_WD.DELICATI_59"
+        },
+        {
+            "count": 3,
+            "prCode": "5",
+            "prPosition": "8",
+            "programName": "PROGRAMS.WM_WD.RINSE",
+            "programType": "W+D"
+        }
+    ],
+    "temperatureUsage": {
+        "temp0to30": 49,
+        "temp40": 43,
+        "temp60to90": 8
+    },
+    "loadingPercentage": [
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 7
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 7
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 7
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 7
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 7
+        }
+    ]
+}
