@@ -1,0 +1,91 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xx1x-x111-1x1x-x1111111x1x1",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 12744,
+    "applianceStatus": 1,
+    "applianceTypeId": 16,
+    "applianceTypeName": "FRE",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "1"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "412"
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": "1"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp_ulg"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "23.06.14"
+        }
+    ],
+    "brand": "haier",
+    "code": "X11XX1X1111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lat": 11.111111,
+        "lng": 11.1111111
+    },
+    "defaultWarrantyYears": 2,
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "6.8.0",
+    "id": 12744,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "H4F272WDH1",
+    "oemAppId": "hOn",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "X11XX1X1111XXX1X1111",
+    "series": "instaswitch",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "seriesVersion": "up595Series1",
+    "sections": {
+        "proactive_temperature": true,
+        "my_profile_temperature": true,
+        "smart_check_up": true,
+        "inside_view": true,
+        "visual_tricks": true,
+        "double_pairing_hidden": true,
+        "chatbot": true,
+        "food_locator": false,
+        "fridge_blackout_alert": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}
