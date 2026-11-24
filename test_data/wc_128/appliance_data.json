@@ -1,0 +1,86 @@
+{
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x1xx-111x-111x1xx1xxx1",
+    "SK_Secondary": "XX#xxxxxxXxxxxx#1111-11-11",
+    "applianceCapacity": "77",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 128,
+    "applianceStatus": 1,
+    "applianceTypeId": 6,
+    "applianceTypeName": "WC",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "0.0.0"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "1"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "23"
+        },
+        {
+            "parName": "eppParserSet",
+            "parValue": "1"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_epp_ulg"
+        },
+        {
+            "parName": "idfVersion",
+            "parValue": "4.4.5"
+        },
+        {
+            "parName": "kernelVersion",
+            "parValue": "10.4.3"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "20.05.20"
+        }
+    ],
+    "brand": "haier",
+    "code": "X111X1X1X11",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lat": 11.1111111,
+        "lng": 1.1111111
+    },
+    "defaultWarrantyYears": 2,
+    "eepromId": 41,
+    "eepromName": "no_eeprom",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "6.8.0",
+    "id": 128,
+    "lastCheckUp": "1970-01-01T00:00:00.0Z",
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "HWS77GDAU1",
+    "oemAppId": "hOn",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "X111X1X1X1111X1X1111",
+    "series": "series50",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "zone": "2",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "sections": {
+        "fridge_blackout_alert": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update"
+        ]
+    }
+}
