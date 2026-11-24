@@ -1,0 +1,73 @@
+{
+    "PK": "xxxx#xx-xxxx-1:1x1111x1-1xx1-1x11-x1xx-xx1x1111x11x",
+    "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
+    "applianceModelId": 578,
+    "applianceStatus": 1,
+    "applianceTypeId": 4,
+    "applianceTypeName": "OV",
+    "attributes": [
+        {
+            "parName": "acuVersion",
+            "parValue": "016P.P.001"
+        },
+        {
+            "parName": "chipset",
+            "parValue": "ESP32D0WDQ5"
+        },
+        {
+            "parName": "dictionaryId",
+            "parValue": "59"
+        },
+        {
+            "parName": "fwLabel",
+            "parValue": "iotfw_ov1"
+        },
+        {
+            "parName": "lang",
+            "parValue": "it-IT"
+        },
+        {
+            "parName": "uiVersion",
+            "parValue": "0.0.0"
+        }
+    ],
+    "brand": "haier",
+    "code": "11111111",
+    "connectivity": "wifi|ble",
+    "coords": {
+        "lng": -1.1111111,
+        "lat": 11.111111
+    },
+    "defaultWarrantyYears": 1,
+    "eepromId": 236,
+    "eepromName": "42837572",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
+    "firstEnrollment": true,
+    "firstEnrollmentTBC": true,
+    "fwVersion": "5.1.0",
+    "id": 578,
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
+    "macAddress": "xx-xx-xx-xx-xx-xx",
+    "modelName": "HWO60SM2F3BH",
+    "nickName": "Xxxxxxx Xxxx Xxxx",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "1111111111111111",
+    "series": "series2",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "zone": "1",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
+    "seriesVersion": "fullTouch2.0",
+    "sections": {
+        "chatbot": true
+    },
+    "topics": {
+        "publish": [],
+        "subscribe": [
+            "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
+            "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/appliancestatus/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/discovery/update",
+            "haier/things/xx-xx-xx-xx-xx-xx/event/presignedurl"
+        ]
+    }
+}
