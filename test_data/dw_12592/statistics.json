@@ -1,0 +1,73 @@
+{
+    "resultCode": "0",
+    "programsCounter": 329,
+    "mostUsedPrograms": [
+        {
+            "count": 139,
+            "prCode": "2",
+            "prPosition": "3",
+            "programName": "PROGRAMS.DW.INTENSIVE",
+            "programType": "D"
+        },
+        {
+            "count": 22,
+            "prCode": "5",
+            "prPosition": "2",
+            "programName": "PROGRAMS.DW.UNIVERSAL",
+            "programType": "D"
+        },
+        {
+            "count": 22,
+            "prCode": "10",
+            "prPosition": "6",
+            "programName": "PROGRAMS.DW.RAPID_59",
+            "programType": "D"
+        },
+        {
+            "count": 7,
+            "programType": "D",
+            "prCode": "27",
+            "prPosition": "16",
+            "programName": "PROGRAMS.DW.SMART_AI_RAPID_SOIL"
+        },
+        {
+            "count": 7,
+            "programType": "D",
+            "prCode": "16",
+            "prPosition": "4",
+            "programName": "PROGRAMS.DW.SMART_AI_SOIL"
+        }
+    ],
+    "temperatureUsage": {
+        "temp45to55": 14,
+        "temp60to65": 23,
+        "temp70to75": 63
+    },
+    "loadingPercentage": [
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 0
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 0
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 0
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 0
+        },
+        {
+            "current": 0,
+            "date": "1970-01-01T00:00:00.0Z",
+            "max": 0
+        }
+    ]
+}

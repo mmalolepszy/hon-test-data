@@ -1,0 +1,394 @@
+{
+    "resultCode": "0",
+    "errorCode": null,
+    "errorDescription": null,
+    "shadow": {
+        "parameters": {
+            "transMode": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "debugEnabled": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "diverterLevel": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "stdTransRate": {
+                "parNewVal": "600",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "temp60to65": {
+                "parNewVal": "74",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "machMode": {
+                "parNewVal": "2",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "checkUpStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "errors": {
+                "parNewVal": "00",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "remoteCtrValid": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "threeInOne": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "doorStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "currentCycleTime": {
+                "parNewVal": "3490",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "extraDry": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "remainingTimeMM": {
+                "parNewVal": "52",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "openDoor": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "ecoExpress": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "buzzerDisabled": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "rinseAidStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "halfLoad": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "intensive": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "autoDose": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "addDish": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "hygiene": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "multiDosingLevelRA": {
+                "parNewVal": "3",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program4": {
+                "parNewVal": "32",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program3": {
+                "parNewVal": "169",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program6": {
+                "parNewVal": "44",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program5": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program8": {
+                "parNewVal": "8",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program7": {
+                "parNewVal": "2",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "lang": {
+                "parNewVal": "12",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program9": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "highTransRate": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "opt10": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "currentWaterUsed": {
+                "parNewVal": "12.04",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program2": {
+                "parNewVal": "29",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program1": {
+                "parNewVal": "2",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "prCode": {
+                "parNewVal": "10",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program19": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "waterHard": {
+                "parNewVal": "6",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program18": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program17": {
+                "parNewVal": "8",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "prPhase": {
+                "parNewVal": "4",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program16": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program11": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program10": {
+                "parNewVal": "30",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program15": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program14": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program13": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program12": {
+                "parNewVal": "3",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "temp45to55": {
+                "parNewVal": "42",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "lightStatus": {
+                "parNewVal": "1",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "statusSyncRate": {
+                "parNewVal": "1440",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "detectedLoadLevel": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "delayTime": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "prPosition": {
+                "parNewVal": "6",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "tubLightStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program21": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "program20": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "interiorLightStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "lastCycleSavingStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "tabStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "currentElectricityUsed": {
+                "parNewVal": "1.00800",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "saltStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "temp70to75": {
+                "parNewVal": "199",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "addDishStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "autodoseTankEmptyStatus": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            "opt12": {
+                "parNewVal": "0",
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            }
+        }
+    },
+    "activity": {
+        "resultCode": "0",
+        "category": "CYCLE",
+        "ttl": 1803367685,
+        "activityExecutionStarted": "1970-01-01 00:00:00",
+        "macAddress": "xx-xx-xx-xx-xx-xx",
+        "attributes": {
+            "prCode": "10",
+            "prPosition": "6",
+            "remainingTimeMM": "103",
+            "remoteCtrValid": "0",
+            "threeInOne": "0",
+            "extraDry": "0",
+            "openDoor": "1",
+            "ecoExpress": "0",
+            "halfLoad": "0",
+            "addDish": "0",
+            "lang": "12",
+            "waterHard": "6",
+            "delayTime": "0",
+            "lastCycleSavingStatus": "0",
+            "programName": "RAPID_59",
+            "functionalId": "15",
+            "powerWashPrz": "1",
+            "programCluster": "traditional",
+            "programFamily": "[dashboard|guided|snap]",
+            "suggestedLoadD": "RL50",
+            "waterEfficiency": "4",
+            "waterSaving": "73",
+            "origin": "dashboard",
+            "channel": "appliance"
+        },
+        "applianceTypeName": "DW",
+        "activityStarted": "1970-01-01T00:00:00.0Z"
+    },
+    "commandHistory": {
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {
+                "opt7": "hygiene",
+                "opt8": "intensive",
+                "opt9": "autoDose",
+                "opt3": "halfLoad",
+                "opt4": "extraDry",
+                "opt5": "openDoor",
+                "opt6": "addDish",
+                "opt1": "threeInOne",
+                "opt2": "ecoExpress"
+            },
+            "programName": "PROGRAMS.DW.IOT_FAIRY_QUICK_CYCLE",
+            "ancillaryParameters": {
+                "ecoIndex": "1.5",
+                "powerWashPrz": "1",
+                "remoteActionable": "1",
+                "programType": "WD",
+                "temp": "65",
+                "waterSaving": "73",
+                "remoteVisible": "1",
+                "suggestedLoadD": "RL50",
+                "energyLabel": "1",
+                "remainingTime": "59",
+                "functionalId": "15",
+                "waterEfficiency": "4",
+                "programCluster": "fairy",
+                "programFamily": "[download|featured]",
+                "waterConsumption": "11"
+            },
+            "applianceType": "DW",
+            "attributes": {
+                "prStr": "Fairy Quick",
+                "channel": "mobileApp",
+                "energyLabel": "1",
+                "origin": "standardProgram"
+            },
+            "device": {
+                "appVersion": "2.29.7",
+                "deviceModel": "sun",
+                "osVersion": "36",
+                "mobileId": "x1xxx11x111111xx",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "threeInOne": "0",
+                "opt10": "0",
+                "operationName": "grCHGWash",
+                "prCode": "10",
+                "diverterLevel": "0",
+                "prPosition": "6",
+                "tabStatus": "0",
+                "dryTime": "0",
+                "extraDry": "0",
+                "hygiene": "0",
+                "autoDose": "0",
+                "ecoExpress": "0",
+                "delayTime": "0",
+                "halfLoad": "0",
+                "openDoor": "1",
+                "onOffStatus": "1",
+                "intensive": "0"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z"
+    },
+    "lastConnEvent": {
+        "macAddress": "xx-xx-xx-xx-xx-xx",
+        "category": "CONNECTED",
+        "instantTime": "1970-01-01T00:00:00.0Z",
+        "timestampEvent": 1795591676474
+    }
+}

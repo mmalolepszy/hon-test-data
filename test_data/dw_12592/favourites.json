@@ -1,0 +1,149 @@
+[
+    {
+        "PK": "xxxx#xx-xxxx-1:x11xxx11-11x1-11xx-xxx1-11x1x111xx11#xxx#xx-xx-xx-xx-xx-xx",
+        "id": "1970-01-01T00:00:00.0Z",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {
+                "opt7": "hygiene",
+                "opt8": "intensive",
+                "opt9": "autoDose",
+                "opt3": "halfLoad",
+                "opt4": "extraDry",
+                "opt5": "openDoor",
+                "opt6": "addDish",
+                "opt1": "threeInOne",
+                "opt2": "ecoExpress"
+            },
+            "programName": "PROGRAMS.DW.SMART_AI_PRO_SOIL",
+            "ancillaryParameters": {
+                "ecoIndex": "1",
+                "powerWashPrz": "1",
+                "remoteActionable": "1",
+                "programType": "WD",
+                "temp": "73",
+                "waterSaving": "58",
+                "remoteVisible": "1",
+                "suggestedLoadD": "RL100",
+                "energyLabel": "1",
+                "remainingTime": "160",
+                "functionalId": "4",
+                "waterEfficiency": "1",
+                "soilSensor": "1",
+                "programCluster": "traditional",
+                "smartLoadingSensor": "1",
+                "programFamily": "[dashboard|guided|snap|auto|smart]",
+                "waterConsumption": "13"
+            },
+            "applianceType": "DW",
+            "attributes": {
+                "prStr": "favourite_1",
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "favouriteProgram"
+            },
+            "parameters": {
+                "threeInOne": "0",
+                "opt10": "0",
+                "operationName": "grCHGWash",
+                "prCode": "14",
+                "diverterLevel": "0",
+                "prPosition": "1",
+                "tabStatus": "0",
+                "opt9": "0",
+                "extraDry": "0",
+                "hygiene": "0",
+                "ecoExpress": "0",
+                "delayTime": "0",
+                "halfLoad": "0",
+                "openDoor": "1",
+                "onOffStatus": "1",
+                "intensive": "0"
+            },
+            "device": {
+                "appVersion": "2.27.9",
+                "deviceModel": "sun",
+                "osVersion": "36",
+                "mobileId": "x1xxx11x111111xx",
+                "mobileOs": "android"
+            }
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "favouriteName": "favourite_1",
+        "SK": "xxxXxxxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x11xxx11-11x1-11xx-xxx1-11x1x111xx11#xxx#xx-xx-xx-xx-xx-xx",
+        "id": "1970-01-01T00:00:00.0Z",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {
+                "opt7": "hygiene",
+                "opt8": "intensive",
+                "opt3": "halfLoad",
+                "opt4": "extraDry",
+                "opt5": "openDoor",
+                "opt6": "addDish",
+                "opt1": "threeInOne",
+                "opt2": "ecoExpress"
+            },
+            "programName": "PROGRAMS.DW.SMART_AI_RAPID_SOIL",
+            "ancillaryParameters": {
+                "ecoIndex": "0",
+                "powerWashPrz": "1",
+                "remoteActionable": "1",
+                "programType": "WD",
+                "temp": "65",
+                "waterSaving": "73",
+                "remoteVisible": "1",
+                "suggestedLoadD": "RL100",
+                "energyLabel": "1",
+                "remainingTime": "59",
+                "functionalId": "17",
+                "waterEfficiency": "4",
+                "soilSensor": "1",
+                "programCluster": "traditional",
+                "smartLoadingSensor": "1",
+                "programFamily": "[hidden|snap|auto|smart]",
+                "waterConsumption": "11"
+            },
+            "applianceType": "DW",
+            "attributes": {
+                "prStr": "favourite_2",
+                "channel": "mobileApp",
+                "energyLabel": "0",
+                "origin": "favouriteProgram"
+            },
+            "parameters": {
+                "threeInOne": "0",
+                "opt10": "0",
+                "operationName": "grCHGWash",
+                "prCode": "27",
+                "diverterLevel": "0",
+                "prPosition": "16",
+                "tabStatus": "0",
+                "opt9": "0",
+                "extraDry": "0",
+                "hygiene": "0",
+                "ecoExpress": "0",
+                "delayTime": "0",
+                "halfLoad": "0",
+                "openDoor": "1",
+                "onOffStatus": "1",
+                "intensive": "0"
+            },
+            "device": {
+                "appVersion": "2.24.7",
+                "deviceModel": "s5e9925",
+                "osVersion": "36",
+                "mobileId": "11x111111111x11x",
+                "mobileOs": "android"
+            }
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "favouriteName": "favourite_2",
+        "SK": "xxxXxxxxxxxx#1111-11-11X11:11:11.1X"
+    }
+]
