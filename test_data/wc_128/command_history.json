@@ -60,5 +60,105 @@
         "timestampAccepted": "1970-01-01T00:00:00.0Z",
         "timestampExecuted": "1970-01-01T00:00:00.0Z",
         "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x1xx-111x-111x1xx1xxx1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "programFamily": "[dashboard]",
+                "remoteActionable": "1",
+                "remoteVisible": "1"
+            },
+            "applianceOptions": {},
+            "applianceType": "WC",
+            "attributes": {
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.32.7",
+                "mobileId": "1x11x11x1x11x1xx",
+                "mobileOs": "android"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "prCodeZ2": "3",
+                "tempSelZ2": "8"
+            },
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "programName": "PROGRAMS.WC.SPARKLING"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x1xx-111x-111x1xx1xxx1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "programFamily": "[dashboard]",
+                "remoteActionable": "1",
+                "remoteVisible": "1"
+            },
+            "applianceOptions": {},
+            "applianceType": "WC",
+            "attributes": {
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.32.7",
+                "mobileId": "1x11x11x1x11x1xx",
+                "mobileOs": "android"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "prCodeZ2": "3",
+                "tempSelZ2": "7"
+            },
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "programName": "PROGRAMS.WC.SPARKLING"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
+    },
+    {
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-x1xx-111x-111x1xx1xxx1#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "ancillaryParameters": {
+                "programFamily": "[download]",
+                "remoteActionable": "1",
+                "remoteVisible": "1"
+            },
+            "applianceOptions": {},
+            "applianceType": "WC",
+            "commandName": "startProgram",
+            "device": {
+                "appVersion": "2.32.7",
+                "mobileId": "1x11x11x1x11x1xx",
+                "mobileOs": "android"
+            },
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "parameters": {
+                "tempSelZ2": "6"
+            },
+            "timestamp": "1970-01-01T00:00:00.0Z",
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "programName": "PROGRAMS.WC.IOT_ROSE"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z",
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X"
     }
 ]
