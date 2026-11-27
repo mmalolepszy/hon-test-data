@@ -1,6 +1,5 @@
 {
-    "PK": "user#eu-west-1:xxxx xxxx xx x xxx",
-    "SK": "app#xx-xx-xx-xx-xx-xx",
+    "PK": "xxxx#xx-xxxx-1:x1x111x1-xxx1-xx1x-111x-1111xxxx1111",
     "applianceId": "xx-xx-xx-xx-xx-xx#1970-01-01T00:00:00.0Z",
     "applianceModelId": 13664,
     "applianceStatus": 1,
@@ -13,15 +12,15 @@
         },
         {
             "parName": "chipset",
-            "parValue": 1
+            "parValue": "1"
         },
         {
             "parName": "dictionaryId",
-            "parValue": 491
+            "parValue": "491"
         },
         {
             "parName": "eppParserSet",
-            "parValue": 1
+            "parValue": "1"
         },
         {
             "parName": "fwLabel",
@@ -47,26 +46,32 @@
     "brand": "haier",
     "code": "XX1XX1X1111",
     "connectivity": "wifi|ble",
+    "coords": {
+        "lng": 1.1111111,
+        "lat": 11.1111111
+    },
     "defaultWarrantyYears": 2,
     "eepromId": 41,
     "eepromName": "no_eeprom",
-    "enrollmentDate": "1970-01-01 00:00:00+00:00",
+    "enrollmentDate": "1970-01-01T00:00:00.0Z",
     "firstEnrollment": false,
     "firstEnrollmentTBC": false,
     "fwVersion": "6.14.0",
     "id": 13664,
-    "lastUpdate": "1970-01-01 00:00:00+00:00",
+    "lastUpdate": "1970-01-01T00:00:00.0Z",
     "macAddress": "xx-xx-xx-xx-xx-xx",
     "modelName": "HP250M7-F9",
-    "purchaseDate": "1970-01-01 00:00:00+00:00",
+    "purchaseDate": "1970-01-01T00:00:00.0Z",
+    "serialNumber": "XX1XX1X111111X11XX1X",
+    "series": "m7",
+    "sfPersonAccountId": "xxxxxxxxxxxxxxxxxx",
+    "SK": "xxx#xx-xx-xx-xx-xx-xx",
     "sections": {
         "chatbot": true,
         "enable_remote_monitoring": true
     },
-    "series": "m7",
-    "sfPersonAccountId": "xxxxxx",
     "topics": {
-        "publish": null,
+        "publish": [],
         "subscribe": [
             "$aws/events/presence/disconnected/xx-xx-xx-xx-xx-xx",
             "$aws/events/presence/connected/xx-xx-xx-xx-xx-xx",

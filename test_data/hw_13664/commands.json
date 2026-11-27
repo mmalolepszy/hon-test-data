@@ -1,257 +1,508 @@
 {
+    "applianceModel": {
+        "id": 13664,
+        "name": "HP250M7-F9",
+        "code": "XX1XX1X1111",
+        "applianceTypeId": 26,
+        "applianceTypeName": "HW",
+        "brand": "haier",
+        "connectivity": "wifi|ble",
+        "attributes": [
+            {
+                "id": 79089,
+                "parName": "lowerBarrierDate",
+                "parValue": "2339",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79090,
+                "parName": "enrollmentType",
+                "parValue": "3.1",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79091,
+                "parName": "tankCapacity",
+                "parValue": "120",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79092,
+                "parName": "fwLabel",
+                "parValue": "iotfw_epp",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79093,
+                "parName": "serviceability",
+                "parValue": "none",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79094,
+                "parName": "interfaceType",
+                "parValue": "series|tankCapacity",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 79095,
+                "parName": "series",
+                "parValue": "m7",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            },
+            {
+                "id": 168321,
+                "parName": "iot",
+                "parValue": "hOn",
+                "status": 1,
+                "lastUpdate": "1970-01-01T00:00:00.0Z"
+            }
+        ],
+        "options": {}
+    },
     "settings": {
         "setParameters": {
+            "description": "The message allows to change parameters values to enable/disable specific features ",
+            "protocolType": "MQTT",
             "parameters": {
                 "boostStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
-                },
-                "category": {
-                    "category": "setParameters",
-                    "typology": "enum",
-                    "mandatory": 0,
-                    "enumValues": [
-                        "setConfig",
-                        "setParameters"
-                    ],
-                    "defaultValue": "setConfig"
+                    "incrementValue": "1"
                 },
                 "externalHeatSource": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "2",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "hcTempSel": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "65",
                     "minimumValue": "55",
                     "maximumValue": "75",
-                    "incrementValue": "1",
-                    "defaultValue": "55"
+                    "incrementValue": "1"
                 },
                 "lockStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "offPeakPeriodScheme": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "offpeakSignalHeatMode": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "1",
                     "minimumValue": "1",
                     "maximumValue": "3",
-                    "incrementValue": "1",
-                    "defaultValue": "1"
+                    "incrementValue": "1"
                 },
                 "offpeakSignalHeatStrategy": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "1",
                     "minimumValue": "1",
                     "maximumValue": "4",
-                    "incrementValue": "1",
-                    "defaultValue": "1"
+                    "incrementValue": "1"
                 },
                 "offpeakSignalNcNo": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "onOffStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
-                },
-                "opp1EcoDays": {
-                    "category": "setParameters",
-                    "typology": "range",
-                    "mandatory": 0,
-                    "minimumValue": "0",
-                    "maximumValue": "40",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "powerSupplySource": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "enum",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "enumValues": [
-                        "0",
-                        "2",
-                        "3",
-                        "4"
-                    ],
-                    "defaultValue": "0"
+                        0,
+                        2,
+                        3,
+                        4
+                    ]
                 },
                 "pvTempSel": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "65",
                     "minimumValue": "55",
                     "maximumValue": "75",
-                    "incrementValue": "1",
-                    "defaultValue": "55"
+                    "incrementValue": "1"
                 },
                 "sgTempSel": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "65",
                     "minimumValue": "55",
                     "maximumValue": "75",
-                    "incrementValue": "1",
-                    "defaultValue": "55"
+                    "incrementValue": "1"
                 },
                 "silentStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "sterilizationInterval": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "1",
                     "minimumValue": "1",
                     "maximumValue": "3",
-                    "incrementValue": "1",
-                    "defaultValue": "1"
+                    "incrementValue": "1"
                 },
                 "sterilizationStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "sterilizationTempSel": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "65",
                     "minimumValue": "55",
                     "maximumValue": "75",
-                    "incrementValue": "1",
-                    "defaultValue": "55"
+                    "incrementValue": "1"
+                },
+                "sterilizationTime": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 0
                 },
                 "tempSel": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "65",
                     "minimumValue": "35",
                     "maximumValue": "75",
-                    "incrementValue": "1",
-                    "defaultValue": "35"
+                    "incrementValue": "1"
                 },
                 "tempUnit": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "timingOnOffStatus": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
                     "mandatory": 0,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
+                },
+                "operationName": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1,
+                    "fixedValue": "grSetVacDate"
                 },
                 "timingPowerOff": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
-                    "mandatory": 0,
+                    "mandatory": 1,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
                 },
                 "timingPowerOn": {
-                    "category": "setParameters",
+                    "category": "command",
                     "typology": "range",
-                    "mandatory": 0,
+                    "mandatory": 1,
+                    "defaultValue": "0",
                     "minimumValue": "0",
                     "maximumValue": "1",
-                    "incrementValue": "1",
-                    "defaultValue": "0"
+                    "incrementValue": "1"
+                },
+                "silentEndTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "silentEndTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "silentStartTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "silentStartTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoDays": {
+                    "category": "command",
+                    "typology": "range",
+                    "mandatory": 1,
+                    "defaultValue": "00",
+                    "minimumValue": "00",
+                    "maximumValue": "40",
+                    "incrementValue": "1"
+                },
+                "opp1EcoEndTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoEndTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoEndTime3": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoStartTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoStartTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp1EcoStartTime3": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoEndTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoEndTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoEndTime3": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoStartTime1": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoStartTime2": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "opp2EcoStartTime3": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "vacEndDate": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                },
+                "vacStartDate": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1
+                }
+            }
+        },
+        "setConfig": {
+            "description": "The message allows to set platform parameters",
+            "protocolType": "MQTT",
+            "parameters": {
+                "httpEndpoint": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 0
+                },
+                "mqttEndpoint": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 0
                 }
             }
         }
     },
     "startProgram": {
         "PROGRAMS.HW.AUTO": {
+            "description": "The command allows to start a program",
+            "protocolType": "MQTT",
             "parameters": {
-                "program": {
-                    "category": "startProgram",
+                "machMode": {
+                    "category": "command",
                     "typology": "fixed",
-                    "defaultValue": "auto"
+                    "mandatory": 1,
+                    "fixedValue": "1"
+                },
+                "onOffStatus": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1,
+                    "fixedValue": "1"
+                },
+                "tempSel": {
+                    "category": "command",
+                    "typology": "range",
+                    "mandatory": 0,
+                    "defaultValue": "65",
+                    "minimumValue": "35",
+                    "maximumValue": "75",
+                    "incrementValue": "1"
                 }
             }
         },
         "PROGRAMS.HW.ECO": {
+            "description": "The command allows to start a program",
+            "protocolType": "MQTT",
             "parameters": {
-                "program": {
-                    "category": "startProgram",
+                "machMode": {
+                    "category": "command",
                     "typology": "fixed",
-                    "defaultValue": "eco"
+                    "mandatory": 1,
+                    "fixedValue": "2"
+                },
+                "onOffStatus": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1,
+                    "fixedValue": "1"
+                },
+                "tempSel": {
+                    "category": "command",
+                    "typology": "range",
+                    "mandatory": 0,
+                    "defaultValue": "65",
+                    "minimumValue": "35",
+                    "maximumValue": "75",
+                    "incrementValue": "1"
                 }
             }
         },
         "PROGRAMS.HW.ELEC": {
+            "description": "The command allows to start a program",
+            "protocolType": "MQTT",
             "parameters": {
-                "program": {
-                    "category": "startProgram",
+                "machMode": {
+                    "category": "command",
                     "typology": "fixed",
-                    "defaultValue": "elec"
+                    "mandatory": 1,
+                    "fixedValue": "3"
+                },
+                "onOffStatus": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1,
+                    "fixedValue": "1"
+                },
+                "tempSel": {
+                    "category": "command",
+                    "typology": "range",
+                    "mandatory": 0,
+                    "defaultValue": "65",
+                    "minimumValue": "35",
+                    "maximumValue": "75",
+                    "incrementValue": "1"
                 }
             }
         },
         "PROGRAMS.HW.VAC": {
+            "description": "The command allows to start a program",
+            "protocolType": "MQTT",
             "parameters": {
-                "program": {
-                    "category": "startProgram",
+                "machMode": {
+                    "category": "command",
                     "typology": "fixed",
-                    "defaultValue": "vac"
+                    "mandatory": 1,
+                    "fixedValue": "4"
+                },
+                "onOffStatus": {
+                    "category": "command",
+                    "typology": "fixed",
+                    "mandatory": 1,
+                    "fixedValue": "1"
+                },
+                "tempSel": {
+                    "category": "command",
+                    "typology": "range",
+                    "mandatory": 0,
+                    "defaultValue": "65",
+                    "minimumValue": "35",
+                    "maximumValue": "75",
+                    "incrementValue": "1"
                 }
             }
         }
-    }
+    },
+    "options": {},
+    "dictionaryId": 491
 }
